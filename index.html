@@ -42,22 +42,42 @@
                             </li>
                         </ul>
                         <form action="" class="container-fluid align-self-center d-flex justify-content-end" id="double-button">
-                            <button class="btn btn-outline-success me-2" id="sign-in-btn" type="button">Sign In</button>
-                            <button class="btn btn-outline-success me-2" type="button" id="try-it-btn">Try It Free</button>
+                            <a href="signIn.html"><button class="btn btn-outline-success me-2" id="sign-in-btn" type="button">Sign In</button></a>
+                            <a href="signUp.html"><button class="btn btn-outline-success me-2" type="button" id="try-it-btn">Try It Free</button></a>
                         </form>
                     </div>                    
                 </div>
             </nav>
         </div>
-        <div class="container">
+        <div class="container mb-5" id="second-header">
             <div class="row mt-0">
-                <div class="col-12 col-sm-6" id="focus-panel">
-                    <p>Focus on Your Business</p>
+                <div class="col-12 col-md-6 ps-1" id="focus-panel">
+                    <p id="focus">Focus on Your Business</p>
+                    <p id="let-us">Let Us Handle Everything Else</p>
+                    <p id="subscription">Subscription Billing, powered with revenue retention tools and a seamless customer experience-without the technical hurdles.</p>
+                    <div>
+                        <form action="" class="container-fluid align-self-center d-flex justify-content-start mt-4 mb-3 ps-0" id="panel-double-button">
+                            <a href="signUp.html" class="btn btn-outline-success me-2" id="panel-sign-up" role="button">Sign Up Free</a>
+                            <!-- <button class="btn btn-outline-success me-2" id="panel-sign-up" type="button">Sign Up Free</button> -->
+                            <button class="btn btn-outline-success me-2" type="button" id="chat">Chat with us</button>
+                        </form>
+                    </div>
+                    <p id="subscription">Already using <span>Double</span>Tap? <a href="signIn.html">Sign In</a></p>
+                    <div class="row d-flex justify-content-xl-evenly mt-4" id="pic-panel">
+                        <div class="col-3"><img src="img/Main/Free -2.png" alt=""></div>
+                        <div class="col-1" id="blue-ell"><img src="img/Main/Ellipse 13.png" alt=""></div>
+                        <div class="col-4"><img src="img/Main/Manage Customers in Minutes-4.png" alt=""></div>
+                        <div class="col-1" id="blue-ell"><img src="img/Main/Ellipse 13.png" alt=""></div>
+                        <div class="col-3"><img src="img/Main/Cancel at Anytime-2.png" alt=""></div>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 mt-4 ps-5" id="header-side">
+                <div class="col-12 col-md-6 mt-4 ps-5">
                     <img class="img-fluid" src="/img/Main/Header-Side.png" alt="">
                 </div>
             </div>
+        </div>
+        <div class="container" id="custom-container">
+            <hr>
         </div>
     </body>
 </html>
