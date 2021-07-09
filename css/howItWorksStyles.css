@@ -73,6 +73,7 @@
     border-radius: 5px;
     width: 40%;
     height: auto;
+    font-weight: bold;
 }
 
 #chat{
@@ -81,6 +82,9 @@
     border: blue solid 1px;
     border-radius: 5px;
     width: 40%;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
 }
 
 #pic-panel img{
