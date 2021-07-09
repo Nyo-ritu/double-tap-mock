@@ -1,3 +1,7 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 /* Nav Bar */
 #sign-in-btn{
     background-color: white;
@@ -13,85 +17,14 @@
 }
 
 #nav-ul{
-    font-size: 75%;
+    font-size: 85%;
     width: 100%;
 }
 
-#nav-ul li{
+#nav-ul li>a{
     color: black;
 }
 
 #double-button{
     width: 50%;
-}
-
-/* Nav Header (Text and Picture) */
-#second-header{
-    margin-right: 0;
-}
-
-#focus-panel{
-    padding: 6% 0 0 75px;
-}
-
-#focus-panel span{
-    font-weight: bold;
-}
-
-#focus-panel p>a{
-    text-decoration: none;
-    font-weight: bold;
-    color: grey;
-}
-
-#focus{
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    line-height: 1.25;
-}
-
-#let-us{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-#subscription{
-    font-size: 15px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    color: grey;
-}
-
-#panel-sign-up{
-    color: white;
-    border: blue solid 1px;
-    background-color: blue;
-    border-radius: 5px;
-    width: 40%;
-    height: auto;
-}
-
-#chat{
-    background-color: white;
-    color: blue;
-    border: blue solid 1px;
-    border-radius: 5px;
-    width: 40%;
-}
-
-#pic-panel img{
-    width: 100%;
-}
-
-#blue-ell{
-    width: 32px;
-}
-
-/* Grey Line under header */
-#custom-container{
-    width: 60%;
 }

@@ -1,3 +1,7 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 /* Nav Bar */
 #sign-in-btn{
     background-color: white;
@@ -13,11 +17,11 @@
 }
 
 #nav-ul{
-    font-size: 75%;
+    font-size: 85%;
     width: 100%;
 }
 
-#nav-ul li{
+#nav-ul li>a{
     color: black;
 }
 
