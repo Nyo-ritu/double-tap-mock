@@ -1,0 +1,30 @@
+#sign-in-btn{
+    background-color: white;
+    color: blue;
+    border: blue solid 1px;
+    width: 100px;
+}
+
+#try-it-btn{
+    color: white;
+    border: blue solid 1px;
+    background-color: blue;
+}
+
+#nav-ul{
+    font-size: 75%;
+    width: 100%;
+}
+
+#nav-ul li{
+    color: black;
+}
+
+#double-button{
+    width: 50%;
+}
+
+#focus-panel{
+    padding: 8% 0 0 75px;
+    font-size: 50px;
+}
