@@ -103,3 +103,32 @@ body{
 #custom-container{
     width: 60%;
 }
+
+
+.footer {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    color: white;
+    justify-items: center
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction:column;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+
+.footer-contents>h2{
+    text-align: center;
+    display: flex;
+}
+
+span{
+    color: white;
+    font-size: 400%;
+}
