@@ -45,4 +45,25 @@ body{
 
 .sign-in-btn{
     width: 20%;
+
+.accountyet{
+margin: 6px;
+text-align: center;
+
+}
+
+#button1{
+width: 130px;
+background-color: white;
+color: blue;
+border-radius: 10px;
+margin-left: 140px;
+}
+
+#button2{
+width: 130px;
+}
+#rocket{
+width:70%;
+margin-left: 100px;
 }
