@@ -130,5 +130,20 @@ body{
 
 span{
     color: white;
-    font-size: 400%;
+    font-size: 100%;
+}
+
+.green-btn{
+    background-color: lime;
+}
+
+.white-btn{
+    background-color: white;
+    color: blue;
+}
+
+.icon {
+    background-image: url("img/Main/icons8-chat-bubble-32.png") no-repeat;
+    height: 12px;
+    width: 12px;
 }

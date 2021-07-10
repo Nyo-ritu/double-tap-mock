@@ -28,3 +28,21 @@ body{
 #double-button{
     width: 50%;
 }
+
+.sign-in-txt-box{
+    width: 50%;
+}
+
+.social-icon{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.sign-in-btn{
+    width: 20%;
+}
