@@ -48,6 +48,10 @@ body{
     color: grey;
 }
 
+#side-header{
+    float: right;
+}
+
 #focus{
     font-size: 60px;
     font-weight: bold;
@@ -145,4 +149,39 @@ span{
     background-image: url("img/Main/icons8-chat-bubble-32.png") no-repeat;
     height: 12px;
     width: 12px;
+
+/* Credit Card block */
+#credit-panel{
+    background-color: white;
+}
+
+#start-payment{
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#credit-container{
+    border: solid 1px grey;
+    border-radius: 30px;
+}
+
+#learn-more{
+    background-color: blue;
+    color: white;
+    width: 40%;
+    border: 2px solid white;
+}
+
+#start-payment-ul li{
+    list-style-type: symbols();
+}
+
+#learn-more-small{
+    padding: 5px 45px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin-left: 30px;
 }
