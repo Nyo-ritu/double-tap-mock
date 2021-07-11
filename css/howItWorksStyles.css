@@ -14,6 +14,7 @@ body{
     color: white;
     border: blue solid 1px;
     background-color: blue;
+    width: 100%;
 }
 
 #nav-ul{
@@ -102,4 +103,121 @@ body{
 /* Grey Line under header */
 #custom-container{
     width: 60%;
+}
+
+
+#how-it-works-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;  
+}
+
+#first-lorem {
+    margin-bottom: 30px;
+}
+
+#second-lorem {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#useful-info {
+    border:solid 1px grey;
+    border-radius: 30px;
+    color: white;
+    width: 70%;
+    height: 70%;
+    
+}
+#useful-text{
+    margin-top: 10%;
+    margin-bottom: 50px;
+    margin-right: 15%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#useful {
+    background-color: blue;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+#get-paid {
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 80px;
+    width: 70%;
+    height: 70%;
+}
+
+#get-paid-text {
+    background-color: blue;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+#get-paid-header {
+    margin-top: 15%;
+    margin-bottom: 80px;
+
+}
+
+
+.footer {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    color: white;
+    justify-items: center
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction:column;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+
+.footer-contents>h2{
+    text-align: center;
+    display: flex;
+}
+
+span{
+    color: white;
+    font-size: 100%;
+}
+
+.green-btn{
+    background-color: lime;
+}
+
+.white-btn{
+    background-color: white;
+    color: blue;
+}
+
+.icon {
+    background-image: url("img/Main/icons8-chat-bubble-32.png") no-repeat;
+    height: 12px;
+    width: 12px;
+}
+
+@media(min-width: 991px) and (max-width: 1200px){
+    #nav-ul{
+        font-size: 65%;
+    }
 }
