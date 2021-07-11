@@ -14,6 +14,7 @@ body{
     color: white;
     border: blue solid 1px;
     background-color: blue;
+    width: 100%;    
 }
 
 #nav-ul{
@@ -24,6 +25,12 @@ body{
 #nav-ul li>a{
     color: black;
 }
+
+
+#double-button{
+    width: 50%;
+}
+
 
 .accountyet{
 margin: 6px;
@@ -88,4 +95,10 @@ span{
     background-image: url("img/Main/icons8-chat-bubble-32.png") no-repeat;
     height: 12px;
     width: 12px;
+}
+
+@media(min-width: 991px) and (max-width: 1200px){
+    #nav-ul{
+        font-size: 65%;
+    }
 }
