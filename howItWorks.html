@@ -27,7 +27,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-evenly" id="nav-ul">
+                        <ul class="navbar-nav mb-2 mb-lg-0" id="nav-ul">
                             <li class="nav-item px-3">
                                 <a href="index.html" class="nav-link">Home</a>
                             </li>
@@ -52,6 +52,7 @@
                 </div>
             </nav>
         </div>
+        <!-- Second Header for full pages -->
         <div class="container mb-5" id="second-header">
             <div class="row mt-0">
                 <div class="col-12 col-md-6 ps-1" id="focus-panel">
@@ -61,7 +62,6 @@
                     <div>
                         <form action="" class="container-fluid align-self-center d-flex justify-content-start mt-4 mb-3 ps-0" id="panel-double-button">
                             <a href="signUp.html" class="btn btn-outline-success me-2" id="panel-sign-up" role="button">Sign Up Free</a>
-                            <!-- <button class="btn btn-outline-success me-2" id="panel-sign-up" type="button">Sign Up Free</button> -->
                             <button class="btn btn-outline-success me-2" type="button" id="chat">Chat with us</button>
                         </form>
                     </div>
@@ -74,14 +74,17 @@
                         <div class="col-3 px-4"><img src="img/Main/Cancel at Anytime-2.png" alt=""></div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 mt-4 ps-5">
-                    <img class="img-fluid" src="img/Main/Header-Side.png" alt="">
+                <div class="col-12 col-md-6 col-lg-5 mt-4">
+                    <img class="img-fluid" id="side-header" src="img/Main/Header-Side.png" alt="">
                 </div>
             </div>
         </div>
+        <!-- Line for separating header and main -->
         <div class="container" id="custom-container">
             <hr>
         </div>
+        <!-- First Section -->
+
         <div class="container" id="how-it-works-text">
             <div class="row">
                 <div class="col-6 offset-3">
@@ -129,7 +132,24 @@
                     </div>
                 </div>
             </div>
-
+        <!--Footer-->
+        <div class="row footer">
+            <div class="col-6 offset-3" id="footer-contents">
+                <div class="d-flex justify-content-center" id="try-double-tap">
+                    <h2>Try Double Tap Today!</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p>Let's Get Started</p>
+                </div>
+                <div class="d-flex gap-2 d-md-block footer-buttons text-center">
+                    <button class="btn btn-primary green-btn" type="button"><b> Get Started </b></button>
+                    <button class="btn btn-primary white-btn" type="button"><span class="icon"></span><b>Chat With Us</b></button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p>Free 14 Day Trial  &#183;  Manage Customers in Minutes  &#183;  Cancel at Anytime
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
